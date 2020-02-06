@@ -34,6 +34,17 @@ function verkeerMagRijdenStoplichtB(booleanVerkeerMagRijden){
         document.getElementById("right-light-top").style.backgroundColor = lichtRood;
     }
 }
+function verkeerMagRijdenStoplichtA(booleanVerkeerMagRijden){
+    if(booleanVerkeerMagRijden == true){
+        document.getElementById("left-light-bottom").style.backgroundColor = lichtUit;
+        document.getElementById("right-light-top").style.backgroundColor = lichtRood;
+    }
+    else{
+        document.getElementById("left-light-bottom").style.backgroundColor = lichtGroen;
+        document.getElementById("left-light-top").style.backgroundColor = lichtUit;
+    }
+}
+
 
 function toggleRoodLicht(){
     if(roodLichtStaatAan == false){
