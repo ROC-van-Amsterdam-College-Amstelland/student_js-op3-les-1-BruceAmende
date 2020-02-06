@@ -6,7 +6,12 @@ var roodLichtStaatAan = false;
 var oranjeLichtStaatAan = false;
 var groenLichtStaatAan = false;
 
+
+
+
 window.onload = function(){
+    document.getElementById("left-stoplight-label").innerHTML = "A";
+    document.getElementById("right-stoplight-label").innerHTML = "B";
     document.getElementById("left-light-top").innerHTML = stop;
     document.getElementById("left-light-middle").innerHTML = maybe;
     document.getElementById("left-light-bottom").innerHTML = go;
@@ -16,6 +21,7 @@ window.onload = function(){
     document.getElementById("right-light-bottom").innerHTML = go;
 
     //JOUW CODE HIER
+  
 }
 
 function toggleRoodLicht(){
